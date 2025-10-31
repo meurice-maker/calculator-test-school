@@ -6,7 +6,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-# nécessaire pour publier le rapport Trivy (SARIF) dans l'onglet Security
 permissions:
   contents: read
   security-events: write
